@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/lake.jpg") no-repeat center/cover;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 30px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background: cornflowerblue;
+    color: lightyellow;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+}
+
+img {
+    border: 3px solid black;
+}
